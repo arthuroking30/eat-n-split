@@ -208,12 +208,3 @@ function Button({ children, onClick }) {
 		</button>
 	);
 }
-
-function Input({ children, disabled, name }) {
-	return (
-		<>
-			<label>{children}</label>
-			<input type="text" disabled={disabled} name={name}></input>
-		</>
-	);
-}
